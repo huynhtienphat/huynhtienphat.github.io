@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	
+	margin: 0;
+	padding: 0;
+}
+
+#headder ul li{
+	 display: inline;
+	 padding: 0 15px;
+	  text-align: center;
+	  color: #FFFFFF;
+}
+		#headder {
+					display: flex;
+					justify-content: space-between;
+					padding: 10px 140px;
+			        position: fixed;
+					background-color:#1A1A1A;
+			        width: 90%;
+				}
+		#headder h1 {
+			color: #FFFFFF;
+		}
+#banner{
+
+	background-image: url("../hinh anh/backg.jpg") ;
+    height: 100vh;
+	background-position: bottom;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: white;
+	
+}
+				#banner h1{
+					font-size: 80px
+
+					}
+				#banner i{
+					padding: 15px;
+					font-size: 25px;
+				}
+				@keyframes chuyendonglenxuong{
+					0%{
+						transform: translateY(0);
+					}
+					100%{
+						transform: translateY(20px);
+
+					}
+				}
+				#banner .nutchuyendong{
+					animation: chuyendonglenxuong 2s infinite; 
+				}
+
+
+#about{
+	padding: 90px 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+		#about div{
+			width: 30%;
+            padding-left: 30px;
+
+}
+         #about div h2{
+	           font-size: 40px;
+			 padding-bottom: 20px;
+}
+
+#skill .item h3{
+	text-transform: uppercase;
+	padding: 5px;
+}
+		#skill {
+			display: flex;
+			justify-content: space-between;
+			padding: 50px 100px;
+			background-color: #DFDEDE;
+		}
+		#skill .item{
+			text-align: center;
+			width: 20%;
+		}
+#portfolio{
+	padding: 50px 100px;
+	text-align: center;
+}
+#portfolio p{
+	padding: 10px;
+	list-style-type: none;
+	
+}  
+#portfolio ul li{
+	display: inline;
+	
+}
+#portfolio .gridport{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 50px;
+}
+#portfolio .gridport img{
+	width: 100%;
+}
+
+#getintouch{
+	padding: 50px 100px;
+	text-align: center;
+	
+}
+#getintouch>p{
+	width: 90%;
+	margin: 0 auto;
+	
+}
+#getintouch .itemcontact{
+	display: flex;
+	justify-content: center;
+}

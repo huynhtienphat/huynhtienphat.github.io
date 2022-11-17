@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	
+	margin: 0;
+	padding: 0;
+}
+
+#headder ul li{
+	 display: inline;
+	 padding: 0 15px;
+	  text-align: center;
+	  color: #FFFFFF;
+}
+		#headder {
+					display: flex;
+					justify-content: space-between;
+					padding: 10px 140px;
+			        position: fixed;
+					background-color:#1A1A1A;
+			        width: 90%;
+				}
+		#headder h1 {
+			color: #FFFFFF;
+		}
+#portfolio{
+	padding: 50px 100px;
+	text-align: center;
+}
+#portfolio p{
+	padding: 10px;
+	list-style-type: none;
+	
+}  
+#portfolio ul li{
+	display: inline;
+	
+}
+#portfolio .gridport{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 50px;
+}
+#portfolio .gridport img{
+	width: 100%;
+}
